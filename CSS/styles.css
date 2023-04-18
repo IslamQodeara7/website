@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap');
+
+/* Fixed Styling */
+body {
+    direction: rtl;
+    font-family: 'tajawal';
+}
+
+:root {
+    --mainColor1: #618531;
+    --mainColor2: #9bc114;
+    --mainColor3: #fff;
+    --mainColor4: #aaa;
+    --mainColor5: #eee;
+    --mainColor6: #ccc;
+}
+
+.websiteButtonStyling {
+    background-color: var(--mainColor1);
+    color: var(--mainColor3);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.slick-next::before,
+.slick-prev::before {
+    color: var(--mainColor1) !important;
+    opacity: 1 !important;
+    position: absolute;
+}
+
+.endline {
+    width: 100%;
+    height: 3px;
+    background-color: var(--mainColor3);
+    margin: 20px 0px;
+}
+
+/* Fixed Styling */
+
+/* Navbar Styling */
+.firstNav {
+    border-bottom: 1px solid var(--mainColor4);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.firstNav a:hover {
+    color: var(--mainColor1);
+}
+
+.searchPart {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border: 2px solid var(--mainColor4);
+}
+
+.searchPart input {
+    box-shadow: none;
+    border: none;
+}
+
+.searchPart input:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.searchPart .searchIcon {
+    height: inherit;
+    width: 10% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainColor1);
+    cursor: pointer;
+}
+
+.searchPart .searchIcon i {
+    color: var(--mainColor3);
+}
+
+.userLinks {
+    width: 100%;
+    background-color: var(--mainColor4);
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--mainColor3);
+}
+
+.sideNavShow {
+    background-color: var(--mainColor1);
+    padding: 5px 20px;
+    color: var(--mainColor3) !important;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.userPart {
+    position: relative;
+}
+
+.secondNav .logo {
+    transform: scale(2, 2);
+}
+
+.userProfilePic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.thirdNav {
+    background-color: var(--mainColor4);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.thirdNav .subscriptionButton {
+    color: var(--mainColor3);
+}
+
+.thirdNav a,
+.thirdNav span,
+.thirdNav button {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--mainColor1);
+}
+
+.thirdNav a:hover,
+.thirdNav span:hover,
+.thirdNav button:hover {
+    color: var(--mainColor2);
+    cursor: pointer;
+}
+
+.moreLinks {
+    position: relative;
+}
+
+.moreLinks>ul {
+    position: absolute;
+    top: 100%;
+    right: -50%;
+    width: 200px;
+    display: none;
+}
+
+.moreLinks:hover ul {
+    display: initial;
+}
+
+.moreLinks2 {
+    position: relative;
+}
+
+.moreLinks2>.list-group {
+    position: absolute;
+    left: -101%;
+    top: 0;
+    width: 200px;
+    display: none !important;
+}
+
+.moreLinks2:hover>.list-group {
+    display: initial !important;
+}
+
+.moreLinks li {
+    cursor: pointer !important;
+}
+
+.moreLinks li:hover {
+
+    border-bottom: 2px solid var(--mainColor2);
+    background-color: var(--mainColor2);
+    color: var(--mainColor3);
+}
+
+.fourthNav {
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 300px;
+    background-color: var(--mainColor4);
+    z-index: 99999999999;
+    transform: translateX(100%);
+    transition: all 1s;
+
+}
+
+.fourthNav .fourthNavClose {
+    color: var(--mainColor3);
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fourthNav .fourthNavClose:hover {
+    color: var(--mainColor1);
+}
+
+.fourthNav .fourthNavHeadline {
+    color: var(--mainColor3);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fourthNav .fourthNavHeadline:hover {
+    color: var(--mainColor1);
+}
+
+.accordion-item {
+    background: none !important;
+}
+
+.accordion-button {
+    color: var(--mainColor3);
+    background: none !important;
+}
+
+.accordion-button span {
+    color: var(--mainColor3) !important;
+}
+
+.sideNavShower {
+    display: none;
+}
+
+/* Navbar Styling */
+
+
+/* Home Styling */
+.home {
+    background-color: #eee;
+}
+
+.home .header {
+    border: 7px solid #fff;
+    border-radius: 10px;
+}
+
+.slidy .slickSliderItem div {
+    border: 5px solid #aaa;
+    border-radius: 10px;
+}
+
+.sliderDisplay {
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 1px 2px 3px #aaa;
+    height: fit-content;
+}
+
+.sliderDisplay .sliderDisplayHeader {
+    background-color: #aaa;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 1px 2px 3px #aaa;
+}
+
+/* Home Styling */
+
+
+/* Product Display Styling */
+
+.productDisplay {
+    background-color: #eee;
+}
+.productButtons button{
+    font-size: 20px;
+
+}
+
+.productDisplay .productDisplayInner {
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.productDisplay .pagesPath {
+    background-color: #aaa;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.productDescription,
+.productAddComment,
+.productAddedComment {
+    box-shadow: 1px 2px 3px #aaa;
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.productDescription .inner .header,
+.productAddComment .inner .header,
+.productAddedComment .inner .header {
+    border-radius: 15px 15px 0px 0px;
+    background-color: #aaa;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.productImage .inner {
+    box-shadow: 1px 2px 3px #aaa;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #fff;
+}
+
+.productImage img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.socialIcons .icon {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #fff;
+    box-shadow: 1px 2px 3px #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.socialIcons .icon .hiddenIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+    color: #fff;
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.socialIcons .icon .visibleIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #618531;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.socialIcons .icon:hover .hiddenIcon {
+    top: 0%;
+}
+
+.socialIcons .icon:hover .visibleIcon {
+    top: 100%;
+}
+
+/* Product Display Styling */
+
+/* Categories Styling */
+
+.categories {
+    background-color: #aaa;
+}
+
+.categories .categoriesInner {
+    background-color: #eee;
+    border-radius: 15px;
+}
+
+.categories .pagesPath {
+    background-color: #eee;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.page-item.active .page-link {
+    background-color: #9bc114;
+    border-color: #618531;
+    color: #fff;
+}
+
+.page-item .page-link {
+    color: #9bc114;
+}
+
+.categoryItem {
+    position: relative;
+    border: 2px solid #aaa;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+
+
+.categoryItem .categoryItemDescription {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.categoryItem:hover .categoryItemDescription {
+    display: initial;
+}
+.categoryItem:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+
+.categoryItem .categoryItemDescription {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    transition: all 1s;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(170, 170, 170, .5);
+}
+
+
+/* Categories Styling */
+
+/* Footer Styling */
+.footer {
+    background-color: var(--mainColor4);
+}
+
+.copyRight {
+    background-color: var(--mainColor5);
+    color: var(--mainColor4);
+}
+
+.footerLinks ul li {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.footerLinks ul li:hover {
+    color: var(--mainColor1);
+}
+
+.footer .footer1 {
+    color: var(--mainColor4);
+    background-color: var(--mainColor5);
+    padding: 20px;
+
+}
+
+.footer .footer2 {
+    background-color: var(--mainColor4);
+    color: var(--mainColor6);
+}
+
+.footer .searchPart {
+    display: flex;
+    background-color: var(--mainColor3);
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: stretch;
+    border: 2px solid var(--mainColor4);
+}
+
+.searchPart input {
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+}
+
+.searchPart input:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.footer .searchPart .searchIcon {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: var(--mainColor1);
+    width: 30% !important;
+    color: var(--mainColor3);
+    cursor: pointer;
+}
+
+.socialIcons .icon {
+    width: 35px;
+    height: 35px;
+    border: 2px solid var(--mainColor3);
+    box-shadow: 1px 2px 3px var(--mainColor4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.socialIcons .icon .hiddenIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainColor4);
+    color: var(--mainColor3);
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.socialIcons .icon .visibleIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainColor1);
+    color: var(--mainColor3);
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.socialIcons .icon:hover .hiddenIcon {
+    top: 0%;
+}
+
+.socialIcons .icon:hover .visibleIcon {
+    top: 100%;
+}
+
+
+/* Footer Styling */
+
+/* Media Styling */
+@media screen and (max-width:1024px) {
+    .secondNav .logo {
+        transform: scale(1, 1);
+    }
+
+    .thirdNav ul {
+        display: none !important;
+    }
+
+    .thirdNav .sideNavShower {
+        display: initial;
+    }
+
+}
+
+/* Media Styling */
